@@ -1,8 +1,6 @@
-<p align="center">
-    <strong><font size="+2">Changelog Template Guide - Rob's updates</font></strong>
-</p>
+# Changelog Template Guide - Rob's updates
 
-# What is a Changelog?
+## What is a Changelog?
 
 A Changelog is a reverse-chronological list of changes to a software or a technology project, from its inception to the current state. It shows all project changes, who made them, and why. An update is made to this file when there is a project change. These changes include additions, deletions, and software changes to project code, such as new features, bug fixes, database changes, UX changes, etc. 
 
