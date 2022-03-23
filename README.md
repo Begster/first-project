@@ -1,2 +1,5 @@
-# test-project
-My first GitHub project
+# My First Project in GitHub
+
+My first GitHub project!
+
+
