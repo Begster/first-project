@@ -8,6 +8,8 @@ Although related to Release Notes, a Changelog is different because it includes 
 
 There is no standardized Changelog format; however, there is “good practice” advice and recommendations, especially for open-source projects, suggesting standardizing documenting structures based on organizational standards. Using Semantic Versioning and ISO date standards is highly recommended. [TODO - should we reference more details to follow in the below sections?
 
+**`[BELOW VERSIONS FOR REF ONLY]`**
+
 **Version 2**: Changelogs are a window into the technical journey of a project, from its inception to its current state. It is a file that informs users of 1) current changes to project files, and 2) a running list of all project changes since inception. Changelogs are similar to Release Notes; however, the intent, message format, and detail level are geared more towards project developers and engineers. However, a spectrum of power users is also interested and keen to learn and understand the new changes.
 
 **Version 3**: Generally, A changelog is a technical resource for the technical people on the project and some power users of a software product. In reverse chronological format, it contains all project changes for every software release from the project’s inception.
