@@ -1,5 +1,5 @@
-# My First Project in GitHub
+# My First GitHub Project
 
-My first GitHub project!
+I'm practicing creating Markdown files in VS Code and then pushing them to GitHub.
 
 
