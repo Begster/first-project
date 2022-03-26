@@ -2,7 +2,7 @@
 
 ## What is a Changelog and who creates it?
 
-A Changelog is a reverse-chronological list of changes to a software or a technology project, written by developers or engineering team members, from its inception to the current state. It displays all project changes when they were made, by whom, and why. An entry is made to the Changelog when there is a change to the software. These changes include additions, deletions, and other significant changes to project code, such as new features, bug fixes, database changes, UX changes, etc. changelogs are also an important historical record when fixing bugs or making other software efficiencies since it shows the changes the software has gone through and can show where something went wrong or the inefficiency happened or when the change was made.
+A Changelog is a reverse-chronological list of changes to a software or a technology project, written by developers or engineering team members, from its inception to the current state. It displays all project changes, when they were made, by whom, and why. An entry is made to the Changelog when there is a change to the software. Changes can range from additions, deletions, and other significant changes to project code, such as new features, bug fixes, database changes, UX changes, etc. changelogs are also an important historical record when fixing bugs or making other software efficiencies since it shows the changes the software has gone through and can show where something went wrong or the inefficiency happened or when the change was made.
 
 Although geared more towards developers and engineers, power users are also a group who review changelogs keenly.
 
