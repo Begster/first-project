@@ -2,17 +2,25 @@
 
 Template guide outline based on research into Changelogs. (It may change as we start writing the guide.)
 
-* What is a Changelog? (Rob)
-* Why should we create one? (Rob)
-* What are the benefits, and who can benefit? (Rob)
-* How to write good changelogs? (Deanna)
-  * What should be included?
-  * Guiding principles.
-  * Best practices.
-    * Add an "Unreleased" section at the top to keep track of new and unreleased changes.
-    * This means you will work in a single change log doc.
-    * Changelog Automation (mention briefly and link to deep dive doc).
-* **PAUSE: Create the changelog template**
+1. What is a Changelog? (Rob)
+
+2. Why should we create one? (Rob)
+
+3. What are the benefits, and who can benefit? (Rob)
+
+4. How to write good changelogs? (Deanna)
+
+   1. What should be included?
+
+   2. Guiding principles. 
+
+   3. Best practices.
+      1. Add an "Unreleased" section at the top to keep track of new and unreleased changes.
+      2. This means you will work in a single change log doc.
+      3. Changelog Automation (mention briefly and link to deep dive doc).
+
+* **P A U S E here and create the Changelog template**
+
 * When Changelogs are *not* very useful.
 * Using commit log diffs.
   * Ignoring Deprecations.

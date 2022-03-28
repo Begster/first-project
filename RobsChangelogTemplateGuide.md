@@ -1,6 +1,6 @@
 # Changelog Template Guide - Rob's sections
 
-## What is a Changelog and who creates it?
+## What is a Changelog and who writes it?
 
 A Changelog is a comprehensive, written in reverse-chronological order listing all "notable" changes to a software or a technology project from its inception to the current state. It displays changes, when they were made, by whom, and why. Ideally, each time a software change is made, an entry is made to this file thus keeping a running log project changes over time. Changes can range from additions, deletions, and other significant updates to project code, such as new features, bug fixes, database changes, UX changes, and more  [TODO: reword this sentence ==> Changelogs are also an important historical record when fixing bugs or making software efficiencies as it shows the changes the software has gone through and can show where something went wrong or the inefficiency happened or when the change was made.]
 
@@ -14,13 +14,13 @@ Release notes inform product or software users of recent or new changes, new fea
 
 [TODO: Add verbiage], written by developers or engineering team members,
 
-### Changelog format
+### What should Changelog format be?
 
 Currently, there is no standard changelog format, however, there are open-source engineers and other technology folks who have suggested similar formats to follow for a changelog. these formats follow and use a consistent style of headings, documenting changes, and using specific tags for specific change.
 
 There is no standardized Changelog format; however, there is “good practice” advice and recommendations from experienced software engineers and other industry experts on how to standardize and format a changelog within the project and then to consistently use that standard nd format. Semantic Versioning and ISO date standard is recommended.
 
-### Why should we create a Changelog OR What are the benefits of a Changelog?
+### Why should we create a Changelog or What are the benefits of a Changelog?
 
 Creating a changelog, and consistently maintaining it for subsequent code releases for an open-source project is recommended and considered good practice for a number of reasons:
 
@@ -32,7 +32,7 @@ Creating a changelog, and consistently maintaining it for subsequent code releas
 
 - Changelogs help in identifying conceptual inconsistencies in software as a whole, or in specific code modules, by analyzing project history and determining how the conflicting concepts were implemented and what were the specific changes.
 
-## Who can benefit from a Changelog?
+## Who benefits from a Changelog?
 
 - Changelogs helps developers stay informed and up-to-date of overall project changes, helps migration efforts, and gives individual developers to show their skills.
 
