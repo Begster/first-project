@@ -7,10 +7,10 @@ Template guide outline based on research into Changelogs. (It may change as we s
 * What are the benefits, and who can benefit? (Rob)
 * How to write good changelogs? (Deanna)
   * What should be included?
-    * Guiding principles.
-    * Best practices.
-      * Add an "Unreleased" section at the top to keep track of new and unreleased changes.
-        * This means you will work in a single change log doc.
+  * Guiding principles.
+  * Best practices.
+    * Add an "Unreleased" section at the top to keep track of new and unreleased changes.
+    * This means you will work in a single change log doc.
     * Changelog Automation (mention briefly and link to deep dive doc).
 * **PAUSE: Create the changelog template**
 * When Changelogs are *not* very useful.
