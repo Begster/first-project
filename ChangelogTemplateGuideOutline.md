@@ -22,7 +22,7 @@ Template guide outline based on research into Changelogs. (It may change as we s
 
       3. Changelog Automation (mention briefly and link to deep dive doc).
 
-5. **_P A U S E here and create the Changelog template_**
+5. **_P A U S E here to create the Changelog template_**
 
 6. When Changelogs are _not_ very useful.
 
