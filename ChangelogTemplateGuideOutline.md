@@ -22,9 +22,9 @@ Template guide outline based on research into Changelogs. (It may change as we s
 
       3. Changelog Automation (mention briefly and link to deep dive doc).
 
-5. **_P A U S E_ here and create the Changelog template**
+5. **_P A U S E here and create the Changelog template_**
 
-6. When Changelogs are *not* very useful.
+6. When Changelogs are _not_ very useful.
 
    1. Using commit log diffs.
 
