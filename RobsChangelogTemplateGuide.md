@@ -1,4 +1,4 @@
-# Changelog Template Guide - Rob's sections
+# Changelog Template Guide - Rob
 
 ## Why should we create Changelogs or Release Notes?
 
@@ -41,7 +41,7 @@ They both:
   - A good way to recognize developers by name
 
 - Release Notes:
-  - Primary audience are product user - internal or external
+  - Primary audience are product users - internal or external
   - Content is succinct and concise
   - Written by product manager or marketing
   - Focus is on describing how new changes will improve user experience
@@ -63,7 +63,7 @@ The [Changelog Format section] in this document has specific and detailed advice
 
 ### Why should we create a Changelog or What are the benefits of a Changelog?
 
-Creating a changelog, and consistently maintaining it for subsequent code releases for an open-source project is recommended and considered good practice for a number of reasons:
+Creating a changelog, and consistently maintaining it for subsequent code releases, for open source projects is highly recommended and considered good practice for a number of reasons:
 
 [TODO: this needs to be rewritten to be changelog-specific]
 
@@ -74,6 +74,8 @@ Creating a changelog, and consistently maintaining it for subsequent code releas
 - Changelogs helps in bug fixing allowing developers and engineers to retrace the codebase updates and zero in on where changes occurred, why they occurred, and what is causing the bug, and how to fix it.
 
 - Changelogs help in identifying conceptual inconsistencies in software as a whole, or in specific code modules, by analyzing project history and determining how the conflicting concepts were implemented and what were the specific changes.
+
+- Clearly written and consistently maintained project documentation, including Changelogs, is an essential factor in determining if developers will use an open source project or not. Using software with poorly maintained documentation is a large enough risk factor to pass on the software, no matter how good it might be.
 
 ## Who benefits from a Changelog?
 
