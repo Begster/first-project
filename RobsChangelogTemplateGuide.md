@@ -1,28 +1,71 @@
 # Changelog Template Guide - Rob's sections
 
-## What is a Changelog and who writes it?
+## Why should we create Changelogs or Release Notes?
 
-A Changelog is a comprehensive, written in reverse-chronological order listing all "notable" changes to a software or a technology project from its inception to the current state. It displays changes, when they were made, by whom, and why. Ideally, each time a software change is made, an entry is made to this file thus keeping a running log project changes over time. Changes can range from additions, deletions, and other significant updates to project code, such as new features, bug fixes, database changes, UX changes, and more  [TODO: reword this sentence ==> Changelogs are also an important historical record when fixing bugs or making software efficiencies as it shows the changes the software has gone through and can show where something went wrong or the inefficiency happened or when the change was made.]
+Keeping a written record/log of the progression of changes and improvements a software application or product goes through helps developers, product managers, and customers stay informed of the progress and increases stakeholder trust and engagement. The terms Release Notes and Changelogs are sometimes used interchangeably to inform the reader of software changes to the codebase over time. However, nuanced differences between these two documents, and their two very different audiences, are worth noting.
 
-Although geared more towards developers and engineers, a certain percentage of power users keenly await and read new changes to the software, be it a new feature they are looking forward to or a bug fix they had reported when a new product release is available.
+Both these documents offer an opportunity to build trust and loyalty between product users and the company by making consistent and continuous improvement to the product and sharing them with the users and stakeholders.
 
-### Difference between Changelogs and Release Notes
+They are also a good way for the company to acknowledge the contributions of its software developers and engineers by listing them by name on these documents which improves morale, and increase motivation and excitement for improving the software product.
 
-Release notes inform product or software users of recent or new changes, new features or feature enhancements, or bug fixes and therefore are more user/customer-centric. Release notes also focus on how these improvements help the customers improve their performance and work and increase their experience using our software or product. Release notes provide updated information to previously distributed user documentation and play an essential role in customer experience and communication and have the potential to increase user and customer loyalty. Product managers or the marketing department generally write release notes to communicate with the customers and build long-term relationships by focusing on a customer-centric approach to product development.
+## What is a Changelog? [OR Changelog Overview]
+
+A Changelog is a reverse-chronological, comprehensive listing of notable and/or significant changes to a software, or a technology project, from its inception to the current state. It displays changes, when they were made, by whom, and why. Each time a software change is made, an entry is made to this file thus keeping a running log of project changes over time. Changes can range from additions, deletions, and other significant updates to project code, such as new features, bug fixes, database changes, UX changes, and so forth. Changelogs are an important historical record when fixing bugs or making other software efficiencies. It shows the exact changes the software had gone through and where something went wrong, the inefficiency, or when the change was made.
+
+Generally geared towards developers and engineers, a certain percentage of power users eagerly read Changelogs when new version is release for changes to the software, whether it is a new feature they were hoping for or a bug fix they reported.
+
+## What are Release Notes? [OR Release Note Overview]
+
+Release Notes are viewed as updates to user documentation and are user-centric in its approach, message, documenting, and formatting. It's users could be both internal and external. It's main message is to inform users of the new software/product changes and how these changes would benefit the users in performing their daily work. The changes could be new or feature enhancements, bugs/issues identified by users, and other efficiencies that are user-centric. Release Notes are also a way product management and marketing can proactively reach out to customers to maintain or increase customer relations, build brand loyalty, and empower the customer. Besides being an effective tool to communicate with the user community, Release Notes also give the users a peek into the company's commitment to the growth of the product, as well as into the longevity and support of the product customers depend on. Clearly and succinctly articulated and well formatted, Release Notes are quite beneficial in aligning internal stakeholders and external customers towards the future growth of the product.
+
+## Similarities and differences between Changelogs and Release Notes
+
+Changelogs and Release Notes are sometimes referred to interchangeably. They are both created when a new version of the product is released; however, they are quite different based on their content and the intended audience. Here are similarities and differences between the two:
+
+### Similarities
+
+They both:
+
+1. Describe and communicate specific product/software changes in a specific and linear format.
+2. Contain high-level information about product/software changes to involved parties.
+
+### Differences
+
+- Changelog:
+  - Primary audience is developers and engineering team
+  - Content is technical and verbose
+  - Written by developers or other engineering team members
+  - Focus is on informing developers of specific software/product changes, who made it, why, and when
+  - Helps in bug fixing, history shows product progression,
+  - Is meant to be a comprehensive historical document of all software changes to-date
+  - A good way to recognize developers by name
+
+- Release Notes:
+  - Primary audience are product user - internal or external
+  - Content is succinct and concise
+  - Written by product manager or marketing
+  - Focus is on describing how new changes will improve user experience
+  - A marketing opportunity for client communication to: show commitment to product, upsell,  strengthen customer relations, increase product loyalty, showcase internal process improvements, show user empathy, etc.)
+
+_[**Similarities and differences between Changelogs and Release Notes** Changelogs and Release Notes are similar, yet different in many respects.
+Release notes inform product or software users of recent or new changes, new features or feature enhancements, or bug fixes and therefore are more user-centric. Release notes also focus on how these improvements help the customers improve their performance, work, and user  experience using our software or product. Release notes provide updated information to previously distributed user documentation and play an essential role in customer experience and communication and have the potential to increase user and customer loyalty.]_
 
 ### Who writes the Changelogs?
 
-[TODO: Add verbiage], written by developers or engineering team members,
+[TODO: This needs expanding]
+Changelogs are generally written by developers or software engineering team members, while Release notes are written by Product managers or the marketing department. generally write release notes to communicate with the customers and build long-term relationships by focusing on a customer-centric approach to product development.
 
 ### What should Changelog format be?
 
-Currently, there is no standard changelog format, however, there are open-source engineers and other technology folks who have suggested similar formats to follow for a changelog. these formats follow and use a consistent style of headings, documenting changes, and using specific tags for specific change.
+Currently, there is no standard changelog format, however, developers and technology experts in the open source domain suggest Changelog formats to use. These suggestions use specific date and versioning formats, level of detail, information to include, and groupings of specific and similar changes.
 
-There is no standardized Changelog format; however, there is “good practice” advice and recommendations from experienced software engineers and other industry experts on how to standardize and format a changelog within the project and then to consistently use that standard nd format. Semantic Versioning and ISO date standard is recommended.
+The [Changelog Format section] in this document has specific and detailed advice.
 
 ### Why should we create a Changelog or What are the benefits of a Changelog?
 
 Creating a changelog, and consistently maintaining it for subsequent code releases for an open-source project is recommended and considered good practice for a number of reasons:
+
+[TODO: this needs to be rewritten to be changelog-specific]
 
 - A changelog file gives product users a good window into project governance, and a well formatted, consistent, and informative changelog gives users a feeling of confidence using the product or the software as it shows them the software/product company is committed to consistently make improvements to the product and keep the impact of any change to the product on the users. This in turn makes the users feel comfortable and generates loyalty to the product. Customer loyalty and satisfaction has a huge impact of any software company.
 
