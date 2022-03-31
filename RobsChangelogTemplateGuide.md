@@ -26,8 +26,8 @@ Changelogs and Release Notes are sometimes referred to interchangeably. They are
 
 They both:
 
-1. Describe and communicate specific product/software changes in a specific and linear format.
-2. Contain high-level information about product/software changes to involved parties.
+- Describe and communicate specific product/software changes in a specific and linear format.
+- Contain high-level information about product/software changes to involved parties.
 
 ### Differences
 
