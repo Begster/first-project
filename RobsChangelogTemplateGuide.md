@@ -10,11 +10,6 @@ The end users referred to in this document, and the accompanying template, may b
 
 NOTE: any other roles to include?
 
-// QUESTION this is a question anchor
-// TODO this is a todo anchor
-// REVIEW This is a REVIEW anchor
-// FIXME This is a FIXME anchor
-
 QUESTIONS:
 Paragraphs or lists?
 Next steps?
