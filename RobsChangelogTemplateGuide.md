@@ -10,10 +10,6 @@ The end users referred to in this document, and the accompanying template, may b
 
 NOTE: any other roles to include?
 
-QUESTIONS:
-Paragraphs or lists?
-Next steps?
-
 ## What is a changelog and what is its purpose?
 
 A changelog is a reverse-chronological, comprehensive listing of all significant and noteworthy changes to a software or technology project's versioned release from the initial release to its current state.
