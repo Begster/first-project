@@ -1,164 +1,180 @@
 # Changelog Template Guide - Rob
 
-Disclaimer: This Changelog Template Guide document and advice is limited to the Open Source Software (OSS) domain.
+## Disclaimer
 
-**TODO:** We should define who the audience for a changelog is? We have end-users, customers, and clients. End-users generally are users of the software product; however, I believe end-users are mainly developers in OSS. Since our initial intent is to create a changelog for the OSS domain, which term should we use in this doc? Or, should we make a disclaimer, in the beginning to indicate what we mean by an end-user, customers, and clients and maybe use one of these terms consistently?
-End-users could be called: consumers, developers, etc.
+The target audience for this version of the Changelog Template Guide - and the accompanying Changelog Template - is the Open Source Software (OSS) domain. However, closed source or proprietary software environments can also use these documents, either as is or with modifications based on need.
+The end users referred to in this document, and the accompanying template, may belong to one of the following OSS domain subgroups:
 
-## Table of Contents
+- OSS developers and team members of the OSS companies.
+- OSS programmers / co-developers and team members of the OSS software user community.
 
-### THE WHAT
+NOTE: any other roles to include?
 
-* What is a Changelog?
-* What are Release notes?
-  * What are the similarities and differences - Changelogs & Release Notes?
-    * Similarities
-    * Differences
+// QUESTION this is a question anchor
+// TODO this is a todo anchor
+// REVIEW This is a REVIEW anchor
+// FIXME This is a FIXME anchor
 
-### THE WHY
+QUESTIONS:
+Paragraphs or lists?
+Next steps?
 
-* Why do we need a Changelog and what are the ***benefits***?
+## What is a changelog and what is its purpose?
 
-### THE WHO
+A changelog is a reverse-chronological, comprehensive listing of all significant and noteworthy changes to a software or technology project's versioned release from the initial release to its current state.
 
-* Who can ***benefit*** from a Changelog?
-* Who writes the Changelogs?
-* What should Changelog format be?
-* Why should we create a Changelog or What are the ***benefits*** of a Changelog?
+Changelogs keep track of all technology-related changes to a software application. Created to help software developers and open source contributors track all significant codebase changes between releases. It lets the developers know what changed, when it changed, and whom, providing a context for past changes and decisions.
 
-## What is a Changelog?
+Changelog history can offer a view into the direction and progression of the software product, guiding the teams to strive and create code and use tools consistent with the company vision and goals and make corrections, if needed.
 
-* [definition 1] Changelog is a reverse-chronological, comprehensive listing of notable and/or significant changes between consecutive versions of software or a technology project, from its inception to the current state.
-* [definition 2] Changelog is a reverse-chronological, cumulative record of all significant and noteworthy changes to a software product.
-* Changelogs show changes to the software: when they were made, by whom, and why. Each time a software change is made, an entry is added to the changelog thereby keeping a running log of project changes over time.
-Changes can range from additions, deletions, and other significant updates to project code, such as new features, bug fixes, database changes, UX changes, and so forth.
-* Changelogs are an important historical record when fixing bugs or making other software efficiencies. It shows the exact changes the software had gone through and where something went wrong, the inefficiency, or when the change was made.
-* Generally geared towards developers and engineers, a certain percentage of power users eagerly read Changelogs when a new version is released for changes to the software, whether it is a new feature they were hoping for or a bug fix they reported.
-* Changelog is an important file for open source software (OSS) projects as many people from different geographic areas in different time zones may be working on the project, and need to be aware of changes that have taken place or are in progress.
-* Changelog history can show and help uncover and help remove conceptual inconsistencies between different parts of a software program.
+## What information do they contain?
 
-*[POSSIBLE DELETE FROM HERE TO THE CLOSE BRACKET: Keeping a written record/log of the progression of changes and improvements a software application or product goes through helps developers, product managers, and customers stay informed of the progress and increases stakeholder trust and engagement. The terms Release Notes and Changelogs are sometimes used interchangeably to inform the reader of software changes to the codebase over time. However, nuanced differences between these two documents, and their two very different audiences, are worth noting. Both these documents offer an opportunity to build trust and loyalty between product users and the company by making consistent and continuous improvement to the product and sharing them with the users and stakeholders. They are also a good way for the company to acknowledge the contributions of its software developers and engineers by listing them by name on these documents which improves morale, and increase motivation and excitement for improving the software product.END OF POSSIBLE DELETE]*
+Changelogs currently do not have a formal standard or format in the OSS domain. There are some “best practice” approaches. These recommend including the following in a changelog:
 
-## What are Release Notes?
+- Version number for the release
+  - Semantic Versioning
 
-* The terms Release Notes and Changelogs are sometimes used interchangeably to inform the reader of software changes to the codebase over time. However, nuanced differences between these two documents, and their two very different audiences, are worth noting.
-* Although similar to changelogs in that they both describe software changes to existing products, the audience, messaging, and content are differently focused, written, and formatted.  
-* Release Notes can also be viewed as updates to previously distributed user documentation. It focuses on:
-Informing product end users of the changes and updates to the product.
-* Highlighting how these changes and updates are beneficial to the end users and how it enriches and enhances their experience with the product.
-* Using clear, plain, succinct, and jargon-free language proactively communicate with end users emphasizing empathy, open communication, company’s commitment to the product and continuous improvement, and promoting customer loyalty
-putting the end users at ease by using appropriate humor and emojis.
-* Release notes can have both internal and external end users.
-* Its main message is to fill-in the gap between user documentation and new changes, and how these changes will improve user interaction with the software. inform users of the new software/product changes and how these changes would benefit the users in performing their daily work.
-* The changes could be new features, feature enhancements, or bugs fixes, /issues identified by users, and other efficiencies that are user-centric.
-* Release Notes are also a way product management and marketing can proactively reach out to customers to maintain or increase customer relations, build brand loyalty, and empower the customer.
-* Besides being an effective tool to communicate with the user community, Release Notes also give the users a peek into the company's commitment to the growth of the product, as well as into the longevity and support of the product customers depend on.
-* Clearly and succinctly articulated and well formatted, Release Notes are quite beneficial in aligning internal stakeholders and external customers towards the future growth of the product.
+- Date 
+  - ISO format
 
-*[POSSIBLE DELETE FROM HERE TO THE CLOSE BRACKET: A Changelog is a reverse-chronological, comprehensive listing of notable and/or significant changes to a software, or a technology project, from its inception to the current state. It displays changes, when they were made, by whom, and why. Each time a software change is made, an entry is made to this file thus keeping a running log of project changes over time. Changes can range from additions, deletions, and other significant updates to project code, such as new features, bug fixes, database changes, UX changes, and so forth. Changelogs are an important historical record when fixing bugs or making other software efficiencies. It shows the exact changes the software had gone through and where something went wrong, the inefficiency, or when the change was made.Generally geared towards developers and engineers, a certain percentage of power users eagerly read Changelogs when new version is release for changes to the software, whether it is a new feature they were hoping for or a bug fix they reported.END OF POSSIBLE DELETE]*
+- Types of changes
+  - Added, changed, deprecated, removed, fixed, etc.
 
-### Changelogs & Release Notes - Similarities and Differences?
+- Who made them and Why
+  - Dev name, email
 
-* Changelogs and Release Notes are sometimes referred to interchangeably. They are both created when a new version of the product is released; however, they are quite different based on their content, intended audience, technical details, content formatting.
-* [additional way to describe release notes] Release notes inform product or software users of recent or new changes, new features or feature enhancements, or bug fixes and therefore are more user-centric. Release notes also focus on how these improvements help the customers improve their performance, work, and user  experience using our software or product. Release notes provide updated information to previously distributed user documentation and play an essential role in customer experience and communication and have the potential to increase user and customer loyalty.
+- Links to additional relevant details:
+  - Specific issues, feature requests, Git tag, issue #, etc.
 
-Here are similarities and differences between the two:
+## What are the benefits and uses of Changelogs, (Why create them, and Who can benefit from them?)
 
-#### **Similarities**
+- For issue resolution, developers can narrow the bug-fixing focus between two releases to identify the codebase change that may have caused the bug.
+- Changelogs provide actionable metrics and insight into the software product through collecting bugs-to-feature ratios and can help in strategic planning.
+- Helpful in the QA process by providing additional resources to explain changes to the application.
+Tracking and eliminating conceptual inconsistencies. Ensuring alignment with project scope and vision.
+- A clear and consistent record of application changes can help identify and correct conceptual inconsistencies in the codebase.
+Tracks various changes: additions, deletions, new features or enhancements, deprecations, etc. Similar types of changes are grouped with links to additional documentation.
+- Benefits OSS developers and the larger open source development community of what changed, when (date), why (context), and by whom (dev name/email).
+- It can help re-learn and understand code logic and onboarding new developers to the project.
+- Developers can track software changes, when made and by whom, understand which parts of the software team members are working on, and understand the overall software product progression and direction.
+  - Without a well-maintained changelog, developers would have to look through various documents or different source code versions to understand what changed and why.
+  - Developers can see software change history consistently in one place instead of wasting time digging source code, comments, commit messages, or other documentation.
+- In the absence of a traditional help desk in the OSS domain, OSS co-developers/users depend on the changelogs and other technical documentation to find answers to their issues or ask for help.
+- Changelogs mention individual developers by name, thus acknowledging their contributions to the project and increasing project buy-in and commitment.
+- Changelogs can keep product users in the loop, engaged, and excited about software updates and new functionality that can increase customer loyalty and product use.
+- Product power-users who are some of the avid fans of changelogs and read them keenly can influence product choices based on their experience with the product and the evolution of the product.
+- It has the potential to attract future customers and employees through social media and other industry-specific organizations and conferences.
+- Up to date project documentation, including Changelogs, can increase the adoption of new development standards and tools and build developer loyalty through empowerment and a sense of ownership of the end product.
 
-They both:
+## Changelogs vs. Release Notes
 
-* Describe and communicate specific product/software changes in a specific and linear format.
-* Contain high-level information about product/software changes to involved parties.
+- Changelogs and release notes are considered to change documentation in a software application environment.
+- Release notes content is:
+  - In a customer-centric language - plain, succinct, and jargon-free.
+  - They are used by companies to specifically communicate new application changes to their consumers and application users.
+  - It can be internal or external focused.
+- Changelog content is:
+  - In a developer-centric technical language.
+  - Informs software developers of specific and time-based changes to the codebase over time.
+  - It can be internal or external focused.
 
-#### **Differences**
+## What are the guiding principles for creating Changelogs?
 
-Changelog:
+- Humans read changelogs, so they need to be in a human-readable text.
+- It should communicate the impact of the changes, such as bug fixes, new/updated features, deprecation, removals, security updates, etc.
+- Sort contents by importance; more critical changes on top followed by less important ones.
+- Do not include less critical changes, such as code refactoring, efficiency changes, etc.
+- Link each change to further information - git commits, issue number/tracker, etc.
+- Changelog updating and publishing cadence should coincide with each new software release.
+- Create an “Unreleased” section at the top of the changelog file to track current release work and change the unreleased tag with the next release date and version.
+- Good practice to review the changelog file for accuracy and completeness before publishing.
 
-* Primary audience is developers and engineering team.
-* Content is technical and verbose.
-* Written by developers or other engineering team members.
-* Focus is on informing developers of specific software/product changes, who made it, why, and when.
-* Helps in bug fixing, history shows product progression.
-* Is meant to be a comprehensive historical document of all software changes to-date.
-* A good way to recognize developers by name.
+## What are the consequences of not using Changelogs?
 
-Release Notes:
+TODO: is this section needed?
 
-* Primary audience are product users - internal or external.
-* Content is succinct and concise.
-* Written by product manager or marketing.
-* Focus is on describing how new changes directly benefit the users, solves a problem they had, or improves their experience with the product.
-* A marketing opportunity for client communication: show commitment to product, up-sell,  strengthen customer relations, increase product loyalty, showcase internal process improvements, show user empathy, etc.)
+Not documenting significant software changes and associated details in a  consistent format and delivery cadence could have negative impacts on the project and may lead to:
 
-*[POSSIBLE DELETE FROM HERE TO THE CLOSE BRACKET: Release Notes are viewed as updates to user documentation and are user-centric in its approach, message, documenting, and formatting. It's users could be both internal and external. It's main message is to inform users of the new software/product changes and how these changes would benefit the users in performing their daily work. The changes could be new or feature enhancements, bugs/issues identified by users, and other efficiencies that are user-centric. Release Notes are also a way product management and marketing can proactively reach out to customers to maintain or increase customer relations, build brand loyalty, and empower the customer. Besides being an effective tool to communicate with the user community, Release Notes also give the users a peek into the company's commitment to the growth of the product, as well as into the longevity and support of the product customers depend on. Clearly and succinctly articulated and well formatted, Release Notes are quite beneficial in aligning internal stakeholders and external customers towards the future growth of the product.END OF POSSIBLE DELETE]*
+- Product growth issues - short- and long-term.
+  - Co-developers and users not maximally engaged.
+- Project success issues - short- and long-term.
+  - Co-developers not engaging.
+  - Users not engaging.
+- Codebase inconsistency.
+  - Hard to understand what changed, when, and why leading to miscommunication and misunderstandings.
+- Product design issues.
+  - Code inconsistencies.
+- Lower customer engagement and loyalty.
+  - Customer not engaging because of unavailability of up to date docs.
+- Lower communication with dev and co-devs.
+  - Team miscommunication.
 
-### Why do we need a Changelog? / What are the benefits?
+## Why (or when) not to use a changelog?
 
-* [this appears to be true for both changelogs and release notes??] Keeping a change log of all noteworthy and important changes in the life cycle of a software product, helps developers, product managers, and customers stay informed of these changes and helps developers and technicians stay on top of incorporating these changes in their own business or personal apps.
-* Up-to-date change logs are an excellent resource for bug fixing and helps developers quickly narrow the change which might have impacted the application section where the bug appears.
-* Open source developers appreciate the consistent and up-to-date-ness of changelogs as it shows the level of commitment the open source company has.
-* Changelogs can help developers find and remove conceptual inconsistencies in software based on the history of changes and why they were made.
-* *[TODO: rephrase and refine]* They increase stakeholder (developer) trust and engagement. They offer an opportunity to build trust and loyalty between product users and the company by making consistent and continuous improvement to the product and sharing them with the users and stakeholders.
-* *[TODO: rephrase and refine]* They are also a good way for the company to acknowledge the contributions of its software developers and engineers by listing them by name on these documents which improves morale, and increases motivation and excitement for improving the software product.
-* OSS necessitates need for well-maintained changelogs even more so than proprietary or closed source software since users of OSS cannot depend on traditional help desks and have to troubleshoot with the OSS community or dig around for information.
+TODO: I'm not sure if this section is needed. Seems I'm comparing changelogs and release notes, whereas in the OSS domain, I think (and I could be wrong) most folks refer to changelogs and release notes interchangeably…
 
-### Who can benefit from a Changelog?
+A changelog may not be the best tool for end user communication in a traditional a recommended document to share with traditional software application end users for the below reasons:
 
-A changelog benefits both the developers and the OSS users.OSS developers and end user benefits:
+- Changelog language and details are technical by definition and thus may not be quite as beneficial as release notes for non-technical application end users.
+- It may be difficult for non-technical end users, should they be expected to understand and implement application-level changes or incorporate new changes into their workflow, and may discourage user engagement with the software.
 
-* Open source projects that use changelogs provide a great benefit to developers who use open source software and libraries for both development and maintenance.
-* Developers can see what changed in the current version of the project when compared to the previous version(s) in terms of additions, removals, bug fixes, deprecations, or changes relating to security among others.
-* Without a well-maintained changelog, developers would have to look through various documents or different versions of the source code to understand what changed and why.
-* Changelogs mention individual developers by name thus acknowledging their contributions to the project and increasing project buy-in and commitment.
-* Developers can see software change history in one place consistently and don't have to dig through source code, code comments, commit messages, or other documentation to try and find what changed from previously released software and even then not being certain they have the correct answer.
-* Same types of changes are grouped together with links to additional documentation.
+## Who writes (or creates) Changelogs?
 
-### Who is responsible for writing the Changelog?
+TODO: finalize below verbiage.
 
-Changelogs are generally written by developers or software engineering team members, while Release notes are written by Product managers or the marketing department. generally write release notes to communicate with the customers and build long-term relationships by focusing on a customer-centric approach to product development.
+- Changelogs are generally created and maintained by the software developers as they have the most current knowledge of what changed (functions, methods, etc.) why it changed (CR, TR, RFC, etc.), and when it changed (date, release number, etc.) and who made the change (name, email).
+- It can also be written by other technical team members, such as architects, project managers, software designers, tech writers/documentation team, etc.
 
-### What is Changelog format?
+## Who benefits from a changelog and what are the benefits?
 
-Currently, there is no standard changelog format, however, developers and technology experts in the open source domain suggest Changelog formats to use. These suggestions use specific date and versioning formats, level of detail, information to include, and groupings of specific and similar changes.
-The [Changelog Format section] in this document has specific and detailed advice.
+NOTE: See “What are the benefits and uses of Changelogs, Why create them, and Who can benefit from them” in above sections.
 
-### Why should we create a Changelog or What are the benefits of a Changelog?
+## Who uses changelogs and how is it used?
 
-Creating a changelog, and consistently maintaining it for subsequent code releases, for open source projects is highly recommended and considered good practice for a number of reasons:
+NOTE: See “What are the benefits and uses of Changelogs, Why create them, and Who can benefit from them” in above sections.
 
-*[TODO: this section needs to be rewritten to be changelog-specific]*
+## Who/What: Negative impacts of not maintaining well-formatted and up to date changelogs?
 
-* A changelog file gives product users a good window into project governance, and a well formatted, consistent, and informative changelog gives users a feeling of confidence using the product or the software as it shows them the software/product company is committed to consistently make improvements to the product and keep the impact of any change to the product on the users. This in turn makes the users feel comfortable and generates loyalty to the product. Customer loyalty and satisfaction has a huge impact of any software company.
-* Along with additions, deletions, new features, and bug fixes, a changelog also shows deprecations when upgrading, or security changes to the software to address software vulnerabilities.
-* Changelogs helps in bug fixing allowing developers and engineers to retrace the codebase updates and zero in on where changes occurred, why they occurred, and what is causing the bug, and how to fix it.
-* Changelogs help in identifying conceptual inconsistencies in software as a whole, or in specific code modules, by analyzing project history and determining how the conflicting concepts were implemented and what were the specific changes.
-* Clearly written and consistently maintained project documentation, including Changelogs, is an essential factor in determining if developers will use an open source project or not. Using software with poorly maintained documentation is a large enough risk factor to pass on the software, no matter how good it might be.
+TODO: do we need this section?
 
-Creating a changelog, and consistently maintaining it for subsequent code releases, for open source projects is highly recommended and considered good practice for a number of reasons:
+- End users (OSS devs and co-devs) not aware of deprecations, removals, and security updates.
+- End users in the dark about bug fixes, new features, and other updates.
+- Risks of mistakes and misunderstandings.
+- Productivity and collaboration issues and confusion among project team and OSS development community
+Loss of credibility for the company.
+- Versioning conflicts .
+- Security issues.
+- Compliance issues.
+- Customer & shareholder relationships are negatively impacted.
 
-[TODO: this needs to be rewritten to be changelog-specific]
+## Where will users find the changelog?
 
-* A changelog file gives product users a good window into project governance, and a well formatted, consistent, and informative changelog gives users a feeling of confidence using the product or the software as it shows them the software/product company is committed to consistently make improvements to the product and keep the impact of any change to the product on the users. This in turn makes the users feel comfortable and generates loyalty to the product. Customer loyalty and satisfaction has a huge impact of any software company.
+- Blog posts; as Markdown (.md) files in a github repo; changelog section of a software or its website; on “what’s new” in android and apple apps stores.
 
-* Along with additions, deletions, new features, and bug fixes, a changelog also shows deprecations when upgrading, or security changes to the software to address software vulnerabilities.
-  
-* Changelogs helps in bug fixing allowing developers and engineers to retrace the codebase updates and zero in on where changes occurred, why they occurred, and what is causing the bug, and how to fix it.
+## File names
 
-* Changelogs help in identifying conceptual inconsistencies in software as a whole, or in specific code modules, by analyzing project history and determining how the conflicting concepts were implemented and what were the specific changes.
+- Changelog Names: Changelog, CHANGELOG.md, CHANGES.md, HISTORY.txt, NEWS.txt, etc.
 
-* Clearly written and consistently maintained project documentation, including Changelogs, is an essential factor in determining if developers will use an open source project or not. Using software with poorly maintained documentation is a large enough risk factor to pass on the software, no matter how good it might be.
+## Format
 
+No standard or formal format as of the writing of this doc.Some good advice on:
 
-***[TODO: the below text needs to be incorporated or deleted.]***
-## Who benefits from a Changelog?
+- What a format should be?
+  - For version #, use Semantic Versioning.
+  - For date, use ISO date format.
+  - Include name and email of the dev.
+  - Include reason for change.
+  - Use links for additional info related to a change, such as git commit, issue #, etc.
+- What should be included?
+  - Types of changes: bug fixes, additions, new features, deprecations, removals, security changes.
+- What types of tags to use?
+  - Added, Changed, Deprecated, Security, etc.
+  - Combine similar changes under one tag.
 
-* Changelogs helps developers stay informed and up-to-date of overall project changes, helps migration efforts, and gives individual developers to show their skills.
+## When is a changelog created?
 
-* A Changelog offers valuable and actionable metrics and insight into the software product by collecting bugs-to-feature ratio. This information can be used to plan and create a future product road map, such as concentrating on developing bug-free code.
+- Changelog is a historical file and is recommended to be continuously updated during software development up until the code is ready to be deployed in a new release.
 
-* Changelogs keep product users in the loop, and engaged and excited about new software changes and updates and boosts their morale that results in customer loyalty. Product power-users sometime can influence product choices based on their experience with the product.
-  
-* Changelogs help other developers and team members learn and understand your work. They also help in re-learning and understanding code logic, as well as on boarding new develops to the project.
+## When will the changelog be available to the end users?
 
-* Changelogs are not very difficult to maintain even if done manually once developers get into the habit of documenting software changes. There are tools and applications that can automate Changelogs and convert them into human-readable formats.
+- Changelog cadence should coincide with each new software release.
